@@ -20,16 +20,7 @@
                         <i class="fas fa-chevron-down text-xl ml-3 arrow"></i>
                     </div>
         </RouterLink>
-        <RouterLink to="/test">
-            <div class="flex items-center justify-between pr-4 pl-4 pt-2 pb-2 hover:bg-darkcyan">
-                        <div class="flex items-center">
-
-                            <i class="fa-solid fa-user m-3 text-2xl" style="color: white"></i>
-                            <span style="font-size: 18px; color: white">Modal</span>
-                        </div>
-                        <i class="fas fa-chevron-down text-xl ml-3 arrow"></i>
-                    </div>
-        </RouterLink>
+        
     </div>
 
 

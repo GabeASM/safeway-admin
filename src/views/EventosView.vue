@@ -26,7 +26,7 @@
                                         <th scope="col" class="px-2 py-4">Categoría</th>
                                         <th scope="col" class="px-2 py-4">Detalles</th>
                                         <th scope="col" class="py-4">ID Usuario</th>
-                                        <th scope="col" class="py-4">Estados</th>
+                                        <th scope="col" class="py-4">Estado</th>
                                     </tr>
                                 </thead>
 
@@ -44,8 +44,12 @@
                                         </td>
                                         <td class="whitespace-nowrap py-4">Nombre usuario</td>
                                         <td class="whitespace-nowrap py-4">mail@mail.com</td>
-                                        <td class="whitespace-nowrap py-4">2</td>
-                                        <td class="whitespace-nowrap py-4">3</td>
+                                        <td class="whitespace-nowrap py-4">123456</td>
+                                        <td class="whitespace-nowrap py-4">
+                                            <button class="rounded-full text-xs font-bold text-white bg-red py-2 px-3">
+                                                <span style="font-size: 14px;">RECHAZADO</span>
+                                            </button>
+                                        </td>
                                         <td>
                                             <i class="fa-solid fa-chevron-right text-2xl"></i>
                                         </td>
@@ -63,8 +67,12 @@
                                         </td>
                                         <td class="whitespace-nowrap py-4">Nombre usuario</td>
                                         <td class="whitespace-nowrap py-4">mail@mail.com</td>
-                                        <td class="whitespace-nowrap py-4">2</td>
-                                        <td class="whitespace-nowrap py-4">3</td>
+                                        <td class="whitespace-nowrap py-4">123456</td>
+                                        <td class="whitespace-nowrap py-4">
+                                            <button class="rounded-full text-xs font-bold text-white bg-green py-2 px-3">
+                                                <span style="font-size: 14px;">VERIFICADO</span>
+                                            </button>
+                                        </td>
                                         <td>
                                             <i class="fa-solid fa-chevron-right text-2xl"></i>
                                         </td>
@@ -82,8 +90,12 @@
                                         </td>
                                         <td class="whitespace-nowrap py-4">Nombre usuario</td>
                                         <td class="whitespace-nowrap py-4">mail@mail.com</td>
-                                        <td class="whitespace-nowrap py-4">2</td>
-                                        <td class="whitespace-nowrap py-4">3</td>
+                                        <td class="whitespace-nowrap py-4">123456</td>
+                                        <td class="whitespace-nowrap py-4">
+                                            <button class="rounded-full text-xs font-bold text-white bg-darkgray py-2 px-3">
+                                                <span style="font-size: 14px;">Esperando verificación</span>
+                                            </button>
+                                        </td>
                                         <td>
                                             <i class="fa-solid fa-chevron-right text-2xl"></i>
                                         </td>
